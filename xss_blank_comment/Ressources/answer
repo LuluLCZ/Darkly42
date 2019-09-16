@@ -1,0 +1,7 @@
+page=feedback
+
+lorsque l'on essaye de poster un commentaire sans contenu une fenêtre pop-up apparait nous disant que nous n'avons pas le droit de commenter sans contenu.
+
+Lorsque l'on inspecte le formulaire, on voit qu'il fait appel a une fonction en javascript pour check la valeur du form, le script est en dur dans l'inspecteur, on peut donc le changer.
+
+flag : 0FBB54BBF7D099713CA4BE297E1BC7DA0173D8B3C21C1811B916A3A86652724E

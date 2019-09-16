@@ -1,0 +1,8 @@
+On peut voir d'après la doc de OWASP que l'on peut injecter des fichiers avec des MIMETYPE différents lors de l'upload en changeant la requête en post faite lors de la vérification du fichier envoyé 
+
+on fait un url depuis le terminal pour envoyer la requête 
+
+curl -X POST -H 'Content-Type: multipart/form-data' -F 'Upload=send' -F 'Uploaded=@script.php;type=image/jpeg' http://192.168.56.101/index.php\?page\=upload\#
+
+ici on remplit les fields du form avec -F ou --form <name=content> en indiquant que le fichier uploadé (script.php) est du type image/jpeg, de ce fait si la vérification n'est faite que sur le field type de la requête et non sur le mimetype du fichier cela va passer.
+On pourrait aussi utiliser getimagesize pour verifier, mais dans ces cas la empêcher l'upload de gif qui pete la sécurité.

@@ -1,0 +1,4 @@
+On voit dans un premier temps que la moyenne de Laurie est de 4215.22 tandis que les seuls choix que l'on a sont soit 1 -> 10.
+Lorsque l'on inspecte le select dans lequel on choisit la note on modifie la value a un nombre plus grand que 10 et le flan apparait;
+
+flag : 03A944B434D5BAFF05F46C4BEDE5792551A2595574BCAFC9A6E25F67C382CCAA

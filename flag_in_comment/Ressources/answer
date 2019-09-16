@@ -1,0 +1,7 @@
+Lors que l'in inspecte le code source de la page 
+?page=e43ad1fdc54babe674da7c7b8f0127bde61de3fbe01def7d00f151c2fcca6d1c (TAMERE en sha265)
+
+on remarque qu'il y a marqué (vous devez venir depuis https://www.nsa.gov/ et utiliser le navigateur ft_bornToSec.
+
+O doit donc changer les headers de la requête ! 
+on Passe le referer a https://www.nsa.gov/ et le user-agent a ft_bornToSec;

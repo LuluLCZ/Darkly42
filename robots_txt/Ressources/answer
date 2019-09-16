@@ -1,0 +1,13 @@
+Lorsque l'on se rend sur le robots.txt du site, on remarque qu'il y a deux pages disallow, /.hidden /whatever
+
+On se rend sur /whateverm on telecharge le fichier htpasswd.
+htpasswd permet de créer et de maintenir les fichiers textes ou sont stockes les noms d'utilisateurs et mdr pour l'authentification de base des utilisateurs HTTP;
+
+username : root
+mdp : 8621ffdbc5698829397d97767ac13db3 -> dragon (md5)
+
+on va sur le panel admin -> /admin
+
+on se connecte ! et voila 
+
+flag: d19b4823e0d5600ceed56d5e896ef328d7a2b9e7ac7e80f4fcdb9b10bcb3e7ff

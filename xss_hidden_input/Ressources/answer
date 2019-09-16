@@ -1,0 +1,3 @@
+Dans Network on peut voir que la requête effectuée sur page=recover est en POST, lorsque l'on descend pour voir les datas envoyées avec le form on y voit la value "webmaster@borntosec.com" pour mail, on inspecte la page, on peut y voir un input hidden avec la valeur "webmaster@borntosec.com" pour email, remplacer ce la value par son email.
+
+the flag is 1D4855F7337C0C14B6F44946872C4EB33853F40B2D54393FBE94F49F1E19BBB0

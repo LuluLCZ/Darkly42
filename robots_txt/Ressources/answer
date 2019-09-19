@@ -1,6 +1,6 @@
 Lorsque l'on se rend sur le robots.txt du site, on remarque qu'il y a deux pages disallow, /.hidden /whatever
 
-On se rend sur /whateverm on telecharge le fichier htpasswd.
+On se rend sur /whatever on telecharge le fichier htpasswd.
 htpasswd permet de créer et de maintenir les fichiers textes ou sont stockes les noms d'utilisateurs et mdr pour l'authentification de base des utilisateurs HTTP;
 
 username : root

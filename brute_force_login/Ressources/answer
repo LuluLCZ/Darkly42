@@ -1,0 +1,5 @@
+On bruteforce la page login a l'aide d'un script et d'un dictionnaire de mot de passe.
+
+on utilise admin en login et on laisse tourner le script qui utilise les mot de passes
+dans ces cas la il faut limiter le nombre de requête par seconde.
+--> admin:shadow

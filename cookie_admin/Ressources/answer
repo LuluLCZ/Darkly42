@@ -1,5 +1,5 @@
 Lorsque l'on regarde les cookies on peut voir qu'il y a "I_am_admin" qui a pour valeur :
-68934a3e9455fa72420237eb05902327 qui représente "false" en md5, on passe alors la valeur a : b326b5062b2f0e69046810717534cb09 qui est "true" et le flan apparait;
+68934a3e9455fa72420237eb05902327 qui représente "false" en md5, on passe alors la valeur a : b326b5062b2f0e69046810717534cb09 qui est "true" et le flag apparait;
 
 
 ------

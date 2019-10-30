@@ -1,0 +1,4 @@
+Faille Bonus Injection XSS Object:
+Si un site contient des balises  <object>, on peut executer un script dans l'attribut data.
+Par exemple: http://xss.rocks/scriptlet.html
+

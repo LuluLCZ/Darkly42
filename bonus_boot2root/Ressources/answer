@@ -1,0 +1,2 @@
+Au lancement de l'iso Darkly, il faut appuyer sur tab pour pouvoir editer la ligne de commande de boot.
+Il faut donc supprimer 'quiet splash --' par 'init=/bin/bash' on a l'apparition d'un prompt avec les droits root dans le dossier /var/www/html/ on fait un "grep -rin 'the flag is' . | more" et on a acces a tous les flags

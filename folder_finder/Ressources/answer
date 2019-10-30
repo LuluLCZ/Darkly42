@@ -4,8 +4,8 @@ contenant des dossiers dans des dossiers dans des dossiers puis dans chaque doss
 Pour trouver le flag dans tout ces readme on va telecharger tout les fichier readme a l'aide de wget qui est un telechargeur en commandline
 
 wget -r (autorise le telechargement en recursivite) -np (ne remonte pas les dossier parents) -A "README*" (on telecharge seulement les readme) -l 0 (pour une profondeur infinie) -e robots=off (robot exclusion)
-http://192.168.56.101/.hidden/ 
-
-au bout d'un long moment et les 18/19 000 readme téléchargés, on utilise un script faisant une boucle sur tout les readme en faisant un grep des chiffres de 1 a 10
+http://192.168.56.101/.hidden/ ; grep -r [0-9] . (pour recupere le flag )
+`wget -r -np -A "README*" -l 0 -e robots=off http://192.168.56.101/.hidden/ ; grep -r [0-9] .`
+au bout d'un long moment et les 18/19 000 readme téléchargés, on fait un grep recursif sur tout les readme en faisant une regex de  chiffres de 1 a 10
 puis qu'aucun readme ne contient des chiffres a part celui contenant le flag !
 
